@@ -6,7 +6,7 @@ fn main() {
     println!("Guess the number!");
 
     let secret_number: u32 = rand::rng().random_range(1..=100);
-    println!("(Debug) The secret number is: {}", secret_number);
+    // println!("(Debug) The secret number is: {}", secret_number);
 
     loop {
         println!("Please input your guess.");
