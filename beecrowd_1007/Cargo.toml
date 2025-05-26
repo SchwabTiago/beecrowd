@@ -1,0 +1,6 @@
+[package]
+name = "beecrowd_1007"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
