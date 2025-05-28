@@ -17,6 +17,6 @@ fn main() {
     let num3:f32 = num3.trim().parse().unwrap();
     let num4:f32 = num4.trim().parse().unwrap();
 
-    let formula = ((num1*num2)-(num3*num4));
+    let formula = (num1*num2)-(num3*num4);
     println!("DIFERENCA = {}",formula);
 }
